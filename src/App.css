@@ -1,0 +1,76 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+.todo-container {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.todo-wrap {
+  width: 85%;
+  display: flex;
+  align-items: baseline;
+}
+.todo-input {
+  width: 300px;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #9A9DC5;
+  background-color: #f6f5f5;
+}
+.todo-input::placeholder {
+  color: #9A9DC5;
+}
+.wrap-todo-input {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-add {
+  color: #fff;
+  background-color: #B269F6;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 12px;
+}
+.btn-add:hover {
+  cursor: pointer;
+  background-color: #b97df1;
+}
+.todos {
+  margin-top: 20px;
+}
+.todo-wrap span {
+  padding-right: 7px;
+}
+.todo {
+  max-width: 85%;
+  word-break: break-all;
+}
+.todo.done{
+  text-decoration: line-through;
+}
+.btn-icon {
+  background: none;
+  border: none;
+  font-size: 18px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+.btn-icon.remove {
+  color: #e8505b;
+}
+.btn-icon.done {
+  color: #14b1ab;
+}
+.btn-icon.remove:hover {
+  color: #e6767d;
+}
+.btn-icon.done:hover {
+  color: #40c4c0;
+}
